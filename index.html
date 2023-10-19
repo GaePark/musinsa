@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무신사 스토어</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="jquery.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- 네비 -->
+    <div id="headertop" style="z-index: 99;">
+        <div id="angle-up">
+            <div id="angle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20 20"><g fill="white"><path d="m15.36 13.268l-6-5c-1.025-.853.256-2.39 1.28-1.536l6 5c1.024.853-.256 2.39-1.28 1.536Z"/><path d="m3.36 11.732l6-5c1.024-.854 2.305.683 1.28 1.536l-6 5c-1.024.854-2.305-.683-1.28-1.536Z"/></g></svg>
+            </div>    
+        </div>
+        <header>
+            <a href="index.html"><img src="images/musinsa_W.png" alt="로고"></a>
+            <nav>
+                <div class="subnav">
+                    <button><a href="sub1.html">상품</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">전체</a>
+                            <a href="sub1.html">상의</a>
+                            <a href="sub1.html">아우터</a>
+                            <a href="sub1.html">바지</a>
+                            <a href="sub1.html">원피스</a>
+                            <a href="sub1.html">스커트</a>
+                            <a href="sub1.html">가방</a>
+                            <a href="sub1.html">스니커즈</a>
+                            <a href="sub1.html">신발</a>
+                            <a href="sub1.html">시계</a>
+                            <a href="sub1.html">모자</a>
+                            <a href="sub1.html" class="sports">스포츠</a>
+                            <a href="sub1.html">양말/레그웨어</a>
+                            <a href="sub1.html">속옷</a>
+                            <a href="sub1.html">안경</a>
+                            <a href="sub1.html">주얼리</a>
+                            <a href="sub1.html">액세서리</a>
+                            <a href="sub1.html">뷰티</a>
+                            <a href="sub1.html">디지털/테크</a>
+                            <a href="sub1.html">리빙</a>
+                            <a href="sub1.html">컬처</a>
+                            <a href="sub1.html">반려동물</a>
+                            <a href="sub1.html" class="sale">세일</a>
+                            <a href="sub1.html">브랜드</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">코디</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">코디숍</a>
+                            <a href="sub1.html">코디맵</a>
+                            <a href="sub1.html">브랜드 스냅</a>
+                            <a href="sub1.html">스트릿 스냅</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">세일</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">쿠폰</a>
+                            <a href="sub1.html">세일</a>
+                            <a href="sub1.html">타임세일</a>
+                            <a href="sub1.html">기획전</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">스페셜</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">쇼케이스</a>
+                            <a href="sub1.html">스페셜 이슈</a>
+                            <a href="sub1.html">단독상품</a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">이벤트</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">래플</a>
+                            <a href="sub1.html">랜덤 이벤트</a>
+                            <a href="sub1.html">룩북 이벤트</a>
+                            <a href="sub1.html">체험단</a>
+                            <a href="sub1.html">회원후기</a>
+                            <a href="sub1.html">신규 브랜드</a>
+                            <a href="sub1.html">뉴브랜드 데이</a>
+                            <a href="sub1.html">첫 구매 990원</a>
+                            <a href="sub1.html">친구 초대</a>
+                            <a href="sub1.html">사은품</a>    
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="navright">
+                <div>
+                    <a href="#"><img src="images/search.png" alt="서치"></a>
+                    <form action="action.php">
+                        <input type="text" placeholder="Search">
+                    </form>
+                </div>
+                <a href="login.html"><img src="images/person.png" alt="내정보"></a>
+                <a href="login.html"><img src="images/bag.png" alt="장바구니"></a>
+            </div>
+        </header>
+    </div>
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+                <div class="text-wrap">
+                    <h2>청자켓 트랜드</h2>
+                    <p>10% 쿠폰 + 최대 60%할인</p>
+                </div>
+                <img src="images/back1.png" alt="im1">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+                <div class="text-wrap">
+                    <h2>무신사 스탠다드</h2>
+                    <p>최대 79% 할인</p>
+                </div>
+                <img src="images/back2.png" alt="im1">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+                <div class="text-wrap">
+                    <h2>상의 최대 79% 할인</h2>
+                    <p>무신사 이벤트</p>
+                </div>
+                <img src="images/back3.png" alt="im1">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+<!-- ----------------랭킹---------------- -->
+      <section>
+        <div id="contents1">
+            <div class="heading">
+                <h1>실시간 랭킹</h1>
+                <a href="sub1.html">전체</a>
+            </div>
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>1위</p>
+                                <img src="images/rank1.png" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>2위</p>
+                                <img src="images/rank2.png" alt="rank2">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>볼란테</h3>
+                                <p class="rank-text">Daily Leggings Pants [Black]</p>
+                                <p class="rank-price"><span>119,000원</span>107,100원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>3위</p>
+                                <img src="images/rank3.png" alt="rank3">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>아식스</h3>
+                                <p class="rank-text">조그 100 S (2E) - 블랙:블랙 / 1201A325-001</p>
+                                <p class="rank-price">79,000원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>4위</p>
+                                <img src="images/rank4.png" alt="rank4">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>아디다스</h3>
+                                <p class="rank-text">삼바 OG - 화이트:스카이블루 / ID2055</p>
+                                <p class="rank-price">139,000원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>5위</p>
+                                <img src="images/rank5.png" alt="rank5">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>어나더 오피스</h3>
+                                <p class="rank-text">23AW Santiago Slacks (Charcoal)</p>
+                                <p class="rank-price">156,000원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>6위</p>
+                                <img src="images/rank6.png" alt="rank6">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>어나더 오피스</h3>
+                                <p class="rank-text">23AW Santiago Slacks (Black)</p>
+                                <p class="rank-price">156,000원</p>  
+                            </div>  
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>7위</p>
+                                <img src="images/rank7.jpg" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3> 마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>8위</p>
+                                <img src="images/rank8.jpg" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3> 마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>9위</p>
+                                <img src="images/rank9.jpg" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3> 마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>10위</p>
+                                <img src="images/rank10.jpg" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3> 마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>11위</p>
+                                <img src="images/rank11.jpg" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="sub2.html">
+                            <div class="rank-img">
+                                <p>12위</p>
+                                <img src="images/rank12.jpg" alt="rank1">    
+                            </div>
+                            <div class="rank-wrap">
+                                <h3>마르디 메크르디</h3>
+                                <p class="rank-text">SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</p>
+                                <p class="rank-price"><span>75,000원</span>71,250원</p>  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+<!-- --------------------스타일---------------------- -->
+        <div class="contents2">
+            <div class="heading">
+                <h1>스타일</h1>
+                <div class="heading-wrap">
+                    <button id="defaultOpen" class="btn" onclick="openStyle(event, 'brand-snap')">브랜드 스냅</button>
+                    <button class="btn" onclick="openStyle(event, 'cody-shop')">코디숍</button>
+                    <button class="btn" onclick="openStyle(event, 'cody-map')">코디맵</button>
+                    <button class="btn" onclick="openStyle(event, 'brand-lookbook')">브랜드 룩북</button>
+                </div>
+                <a href="#">전체</a>
+            </div>
+            <div class="style-img tabcontent" id="brand-snap">
+                <a href="#"><img src="images/snap1.png" alt="style1"></a>
+                <a href="#"><img src="images/snap2.png" alt="style2"></a>
+                <a href="#"><img src="images/snap3.png" alt="style3"></a>
+                <a href="#"><img src="images/snap4.png" alt="style4"></a>
+            </div>
+            <div class="style-img tabcontent" id="cody-shop">
+                <a href="#"><img src="images/codyshop1.jpg" alt="style1"></a>
+                <a href="#"><img src="images/codyshop2.jpg" alt="style2"></a>
+                <a href="#"><img src="images/codyshop3.jpg" alt="style3"></a>
+                <a href="#"><img src="images/codyshop4.jpg" alt="style4"></a>
+            </div>
+            <div class="style-img tabcontent" id="cody-map">
+                <a href="#"><img src="images/map1.jpg" alt="style1"></a>
+                <a href="#"><img src="images/map2.jpg" alt="style2"></a>
+                <a href="#"><img src="images/map3.jpg" alt="style3"></a>
+                <a href="#"><img src="images/map4.jpg" alt="style4"></a>
+            </div>
+            <div class="style-img tabcontent" id="brand-lookbook">
+                <a href="#"><img src="images/look1.jpg" alt="style1"></a>
+                <a href="#"><img src="images/look2.jpg" alt="style2"></a>
+                <a href="#"><img src="images/look3.jpg" alt="style3"></a>
+                <a href="#"><img src="images/look4.jpg" alt="style4"></a>
+            </div>
+        </div>
+<!-- -----------------스페셜------------------ -->
+        <div class="contents3">
+            <div class="heading">
+                <h1>스페셜</h1>
+                <div class="heading-wrap">
+                    <button>쇼케이스</button>
+                    <button>단독 상품</button>
+                </div>
+                <a href="#">전체</a>
+            </div>
+            <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="spacial-img">
+                                <img src="images/spacial1.png" alt="스페셜1">
+                                <p>진행중 23.09.07 - 23.09.21</p>
+                            </div>
+                            <div class="spacial-wrap">
+                                <p>예스아이씨</p>
+                                <h3>Stay Tuned!</h3>
+                                <p><span>다시 한번 주목해야 할 예스아이씨의 23 F/W 컬렉션.</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="spacial-img">
+                                <img src="images/spacial2.png" alt="스페셜2">
+                                <p>진행중 23.09.06 - 23.09.13</p>
+                            </div>
+                            <div class="spacial-wrap">
+                                <p>히로</p>
+                                <h3>휠라 키즈, 히로와 함께 힙한 레이싱 대결!</h3>
+                                <p><span>휠라의 F1 헤리티지에 히로의 감성을 입혀 새롭게 선보이는 레이싱 팀 협업 컬렉션</span></p>
+                            </div>    
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="spacial-img">
+                                <img src="images/spacial3.png" alt="스페셜3">
+                                <p>진행중 23.09.05 - 23.09.18</p>
+                            </div>
+                            <div class="spacial-wrap">
+                                <p>몽블랑</p>
+                                <h3>몽블랑 익스플로러 플래티넘 무신사 단독 선발매</h3>
+                                <p><span>몽블랑이 새롭게 선보이는 빙하와 산을 담은 새로운 향수.</span></p>
+                            </div>    
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="spacial-img">
+                            <img src="images/spacial1.png" alt="스페셜1">
+                            <p>진행중 23.09.07 - 23.09.21</p>
+                        </div>
+                        <div class="spacial-wrap">
+                            <p>예스아이씨</p>
+                            <h3>Stay Tuned!</h3>
+                            <p><span>다시 한번 주목해야 할 예스아이씨의 23 F/W 컬렉션.</span></p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="spacial-img">
+                                <img src="images/spacial2.png" alt="스페셜2">
+                                <p>진행중 23.09.06 - 23.09.13</p>
+                            </div>
+                            <div class="spacial-wrap">
+                                <p>히로</p>
+                                <h3>휠라 키즈, 히로와 함께 힙한 레이싱 대결!</h3>
+                                <p><span>휠라의 F1 헤리티지에 히로의 감성을 입혀 새롭게 선보이는 레이싱 팀 협업 컬렉션</span></p>
+                            </div>    
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="spacial-img">
+                                <img src="images/spacial3.png" alt="스페셜3">
+                                <p>진행중 23.09.05 - 23.09.18</p>
+                            </div>
+                            <div class="spacial-wrap">
+                                <p>몽블랑</p>
+                                <h3>몽블랑 익스플로러 플래티넘 무신사 단독 선발매</h3>
+                                <p><span>몽블랑이 새롭게 선보이는 빙하와 산을 담은 새로운 향수.</span></p>
+                            </div>    
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="contents4">
+            <div class="heading">
+                <h1>쇼핑 이슈</h1>
+                <a href="#">전체</a>
+            </div>
+            <div class="shopping-container">
+                <div class="shopping-wrap">
+                    <a href="#">
+                        <img src="images/shopping1.png" alt="쇼핑1">
+                        <div>
+                            <h2>9월 무이자 할부 혜택 안내</h2>
+                            <p>09.01 ~ 09.30</p>
+                        </div>
+                    </a>
+    
+                </div>
+                <div class="shopping-wrap">
+                    <a href="#">
+                        <img src="images/shopping2.png" alt="쇼핑2">
+                        <div>
+                            <h2>팔팔스케이트 무신사 입점 특별전</h2>
+                            <p>09.04 ~ 09.17</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <div class="brand">
+        <div class="heading">
+            <h1>주요 브랜드</h1>
+            <a href="#">전체</a>
+        </div>
+        <div class="swiper mySwiper4">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/logitech.png" alt="브랜드1">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/poloralphlauren.png" alt="브랜드2">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/physicaleducation.png" alt="브랜드3">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/nationalgeographic.png" alt="브랜드4">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/lmood.png" alt="브랜드5">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/matinkim.png" alt="브랜드6">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/logitech.png" alt="브랜드7">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/thenorthface.png" alt="브랜드8">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/physicaleducation.png" alt="브랜드9">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/poloralphlauren.png" alt="브랜드10">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/calvinkleinjeans.png" alt="브랜드11">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/hadex.png" alt="브랜드12">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/codegraphy.png" alt="브랜드13">
+              </div>
+            </div>
+          </div>
+      </div>
+    <footer>
+        <div class="footer-container1">
+            <a href="#">회사소개</a>
+            <a href="#">공지사항</a>
+            <a href="#">이벤트 공지</a>
+            <a href="#">입점/제휴/대량구매</a>
+            <a href="#"><b>개인정보처리방침</b></a>
+            <a href="#">영상정보처리기기 운영ㆍ관리방침</a>
+            <a href="#">이용약관</a>
+            <a href="#">로고 다운로드</a>
+        </div> 
+        <div class="footer-container2">
+            <div class="footer-wrap">
+                <h3>무신사 편집팀</h3>
+                <p>서울특별시 강남구 신사동 640-2</p>
+                <p>로빈명품관 지하 1층, 무신사 편집팀</p>
+                <p>(무신사 스토어 반송지 아님,해당주소 반송불가)</p>
+            </div>
+            <div class="footer-wrap">
+                <h3>무신사 스토어</h3>
+                <p>(17759)경기도 평택시 신장로 55 CJ대한통운 평택합정집배점 내 무신사 물류센터</p>
+                <p>(무신사 스토어 자체 배송 상품 물류센터)</p>
+                <p>(배송센터 직접 물건 수령 불가)</p>
+            </div>
+            <div class="footer-wrap">
+                <h3>고객센터</h3>
+                <div>
+                    <p>1544-7199(유료)</p>
+                    <a href="#">1:1 문의</a>
+                    <a href="#">이메일</a>
+                </div>
+                <p>로빈명품관 지하 1층, 무신사 편집팀</p>
+                <p>(무신사 스토어 반송지 아님,해당주소 반송불가)</p>
+            </div>    
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./JavaScripts/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./JavaScripts/script.js"></script>
+</body>
+</html>

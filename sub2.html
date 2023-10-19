@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무신사 스토어</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="jquery.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sub2.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./JavaScripts/sub2.js"></script>
+</head>
+<body>
+    <div id="angle-up">
+        <div id="angle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20 20"><g fill="white"><path d="m15.36 13.268l-6-5c-1.025-.853.256-2.39 1.28-1.536l6 5c1.024.853-.256 2.39-1.28 1.536Z"/><path d="m3.36 11.732l6-5c1.024-.854 2.305.683 1.28 1.536l-6 5c-1.024.854-2.305-.683-1.28-1.536Z"/></g></svg>
+        </div>    
+    </div>
+    <div id="headertop" style="z-index: 99;">
+        <header>
+            <a href="index.html"><img src="images/musinsa_W.png" alt="로고"></a>
+            <nav>
+                <div class="subnav">
+                    <button><a href="sub1.html">상품</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">전체</a>
+                            <a href="sub1.html">상의</a>
+                            <a href="sub1.html">아우터</a>
+                            <a href="sub1.html">바지</a>
+                            <a href="sub1.html">원피스</a>
+                            <a href="sub1.html">스커트</a>
+                            <a href="sub1.html">가방</a>
+                            <a href="sub1.html">스니커즈</a>
+                            <a href="sub1.html">신발</a>
+                            <a href="sub1.html">시계</a>
+                            <a href="sub1.html">모자</a>
+                            <a href="sub1.html" class="sports">스포츠</a>
+                            <a href="sub1.html">양말/레그웨어</a>
+                            <a href="sub1.html">속옷</a>
+                            <a href="sub1.html">안경</a>
+                            <a href="sub1.html">주얼리</a>
+                            <a href="sub1.html">액세서리</a>
+                            <a href="sub1.html">뷰티</a>
+                            <a href="sub1.html">디지털/테크</a>
+                            <a href="sub1.html">리빙</a>
+                            <a href="sub1.html">컬처</a>
+                            <a href="sub1.html">반려동물</a>
+                            <a href="sub1.html" class="sale">세일</a>
+                            <a href="sub1.html">브랜드</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">코디</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">코디숍</a>
+                            <a href="sub1.html">코디맵</a>
+                            <a href="sub1.html">브랜드 스냅</a>
+                            <a href="sub1.html">스트릿 스냅</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">세일</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">쿠폰</a>
+                            <a href="sub1.html">세일</a>
+                            <a href="sub1.html">타임세일</a>
+                            <a href="sub1.html">기획전</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">스페셜</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">쇼케이스</a>
+                            <a href="sub1.html">스페셜 이슈</a>
+                            <a href="sub1.html">단독상품</a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button><a href="sub1.html">이벤트</a></button>
+                    <div class="subnavcontent">
+                        <div>
+                            <a href="sub1.html">래플</a>
+                            <a href="sub1.html">랜덤 이벤트</a>
+                            <a href="sub1.html">룩북 이벤트</a>
+                            <a href="sub1.html">체험단</a>
+                            <a href="sub1.html">회원후기</a>
+                            <a href="sub1.html">신규 브랜드</a>
+                            <a href="sub1.html">뉴브랜드 데이</a>
+                            <a href="sub1.html">첫 구매 990원</a>
+                            <a href="sub1.html">친구 초대</a>
+                            <a href="sub1.html">사은품</a>    
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="navright">
+                <div>
+                    <a href="#"><img src="images/search.png" alt="서치"></a>
+                    <form action="action.php">
+                        <input type="text" placeholder="Search">
+                    </form>
+                </div>
+                <a href="login.html"><img src="images/person.png" alt="내정보"></a>
+                <a href="login.html"><img src="images/bag.png" alt="장바구니"></a>
+            </div>
+        </header>
+    </div>
+
+    <section>
+        <div class="commodity-wrapper">
+            <div class="commodity">
+                <div class="commodity-container">
+                    <div class="commodityb">
+                        <img id="commodity-b1" src="images/commodity1.jpg" alt="상품1">
+                    </div>
+                    <div class="commodity-s">
+                        <div class="commodity-img1 commodity-img" ><img src="images/commodity1.jpg" alt="상품1" onclick="myFunction(this)"></div>
+                        <div class="commodity-img2 commodity-img"><img src="images/commodity2.jpg" alt="상품2" onclick="myFunction(this)"></div>
+                        <div class="commodity-img3 commodity-img"><img src="images/commodity3.jpg" alt="상품3" onclick="myFunction(this)"></div>
+                        <div class="commodity-img4 commodity-img"><img src="images/commodity4.jpg" alt="상품4" onclick="myFunction(this)"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="commodity-wrap">
+                <h1>SWEATSHIRT FLOWERMARDI_OATMEAL BLACK</h1>
+                <div class="product">
+                    <h2>제품 정보</h2>
+                    <ul>
+                        <li>
+                            <p class="product-name">브랜드 / 품번</p>
+                            <p class="product-wrap">
+                                <a href="#">MARDI MERCREDI</a> / MM2034SW007
+                            </p>
+                        </li>
+                        <li>
+                            <p class="product-name">시즌 / 성별</p>
+                            <p class="product-wrap">2021 S/S/여</p>
+                        </li>
+                        <li>
+                            <p class="product-name">조회수(1개원)</p>
+                            <p class="product-wrap"><span>1.3만 회</span>이상</p>
+                        </li>
+                        <li>
+                            <p class="product-name">누적판매(1년)</p>
+                            <p class="product-wrap"><span>8.3천 개</span>이상</p>
+                        </li>
+                        <li>
+                            <p class="product-name">좋아요</p>
+                            <p class="product-wrap heart"><img src="images/heart.png" alt="좋아요"><span>38,281</span></p>
+                        </li>
+                        <li>
+                            <p class="product-name">구매 후기</p>
+                        </li>
+                    </ul>
+                    <h2>배송 정보</h2>
+                    <ul>
+                        <li>
+                            <p class="product-name">출고 정보</p>
+                            <p class="product-wrap">
+                                <a href="#">결제 3일 이내 출고</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="product-name">배송 정보</p>
+                            <p class="product-wrap">국내 배송 / 입점사 배송</p>
+                        </li>
+                        <li class="product-box">
+                            <p>9/18(월) 도착 예정 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 14.5a.74.74 0 0 1-.53-.22L8 10.78a.75.75 0 0 1 1-1.06l3 3l3-3a.75.75 0 0 1 1 1.06l-3.5 3.5a.74.74 0 0 1-.5.22Z"/></svg></p>
+                            <p class="product-boxs">9/16(토)까지 도착 확률------77%</p>
+                            <p class="product-boxs">9/18(월)까지 도착 확률------99%</p>
+                            <p class="product-boxs">9/19(화)까지 도착 확률------99%</p>
+                        </li>
+                    </ul>
+                    <h2>가격 정보</h2>
+                    <ul>
+                        <li>
+                            <p class="product-name">무신사 판매가</p>
+                            <p class="product-wrap sale">
+                                <span>75,000</span>원
+                            </p>
+                        </li>
+                        <li>
+                            <p class="product-name">무신사 회원가</p>
+                            <p class="product-wrap"><span>54,791 ~ 71,250</span>원</p>
+                        </li>
+                        <li>
+                            <p class="product-name">무신사 할부가</p>
+                            <p class="product-sale"><span>4,566 ~ 5,938</span>원</p>
+                        </li>
+                        <li>
+                            <p class="product-name">무신사 적립금</p>
+                            <p class="product-sale">최대<span>2,850</span>원</p>
+                        </li>
+                    </ul>
+                    <h2>상품 구매</h2>
+                    <ul>
+                        <li class="price">
+                            <p class="product-name">구매 개수</p>
+                            <div class="product-btn">
+                                <button onclick="minus()" id="minus"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998H5v-2h14z"/></svg></button>
+                                <p><span id="quantity">1</span></p>
+                                <button onclick="plus()" id="plus"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"/></svg></button>
+                            </div>
+                            <p class="product-wrap">
+                                <span>71250</span>원
+                            </p>
+                        </li>
+                        <li class="price">
+                            <p class="product-name">총 상품 금액</p>
+                            <p class="product-wrap"><span id="cell">71250</span>원</p>
+                        </li>
+                    </ul>
+                    <div class="buy">
+                        <a href="#"><button class="buy-btn1" >바로 구매</button></a>
+                        <a href="#"><button class="buy-btn2">장바구니</button></a>
+        
+                    </div>
+                    <h2>다른 색상 상품</h2>
+                    <div class="outher">
+                        <img src="images/other1.jpg" alt="다른1">
+                        <img src="images/other2.jpg" alt="다른2">
+                        <img src="images/other3.jpg" alt="다른3">
+                        <img src="images/other4.jpg" alt="다른4">
+                        <img src="images/other5.jpg" alt="다른5">
+                        <img src="images/other6.jpg" alt="다른6">
+                        <img src="images/other7.jpg" alt="다른7">
+                        <img src="images/other8.jpg" alt="다른8">
+                        <img src="images/other9.jpg" alt="다른9">
+                        <img src="images/other10.jpg" alt="다른10">
+                        <img src="images/other11.jpg" alt="다른11">
+                        <img src="images/other12.jpg" alt="다른12">
+                    </div>
+                    <h2>사이즈 정보</h2>
+                    <div class="size">
+                        <a href="#">구매내역 실측 선택</a>
+                        <a href="#">실측 직접 입력</a>
+                        <a href="#">측정법</a>
+                    </div>
+                    <table>
+                        <tr class="size-name">
+                            <td>cm</td>
+                            <td>총장</td>
+                            <td>어깨너비</td>
+                            <td>가슴 단면</td>
+                            <td>소매길이</td>
+                        </tr>
+                        <tr>
+                            <td class="size-name">my</td>
+                            <td colspan="4">가지고 계신 제품의 실측을 입력해보세요~!</td>
+                        </tr>
+                        <tr>
+                            <td class="size-name">FREE</td>
+                            <td>63</td>
+                            <td>62</td>
+                            <td>63</td>
+                            <td>54</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="sang">
+            <hr>
+            <h2>정보</h2>
+            <img src="images/sang.jpg" alt="상세">    
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container1">
+            <a href="#">회사소개</a>
+            <a href="#">공지사항</a>
+            <a href="#">이벤트 공지</a>
+            <a href="#">입점/제휴/대량구매</a>
+            <a href="#"><b>개인정보처리방침</b></a>
+            <a href="#">영상정보처리기기 운영ㆍ관리방침</a>
+            <a href="#">이용약관</a>
+            <a href="#">로고 다운로드</a>
+        </div> 
+        <div class="footer-container2">
+            <div class="footer-wrap">
+                <h3>무신사 편집팀</h3>
+                <p>서울특별시 강남구 신사동 640-2</p>
+                <p>로빈명품관 지하 1층, 무신사 편집팀</p>
+                <p>(무신사 스토어 반송지 아님,해당주소 반송불가)</p>
+            </div>
+            <div class="footer-wrap">
+                <h3>무신사 스토어</h3>
+                <p>(17759)경기도 평택시 신장로 55 CJ대한통운 평택합정집배점 내 무신사 물류센터</p>
+                <p>(무신사 스토어 자체 배송 상품 물류센터)</p>
+                <p>(배송센터 직접 물건 수령 불가)</p>
+            </div>
+            <div class="footer-wrap">
+                <h3>고객센터</h3>
+                <div>
+                    <p>1544-7199(유료)</p>
+                    <a href="#">1:1 문의</a>
+                    <a href="#">이메일</a>
+                </div>
+                <p>로빈명품관 지하 1층, 무신사 편집팀</p>
+                <p>(무신사 스토어 반송지 아님,해당주소 반송불가)</p>
+            </div>    
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./JavaScripts/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>

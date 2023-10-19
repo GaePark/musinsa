@@ -1,0 +1,140 @@
+#headertop {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    transition: 0.3s;
+}
+
+header {
+    overflow: hidden;
+    max-width: 1200px;
+    min-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > a {
+    float: left;
+}
+
+header nav {
+    float: left;
+    margin-right: auto;
+    margin-left: 35px;
+    overflow: hidden;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.subnav > button {
+    border: none;
+    overflow: hidden;
+    outline: none;
+    background: none;
+    box-sizing: border-box;
+}
+.subnav button a {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 15px;
+    color: #fff;
+    display: block;
+}
+
+.subnav:hover button{
+    cursor: pointer;
+    background: #494949
+}
+
+.subnav:hover .subnavcontent{
+    display: block;
+}
+
+.subnavcontent {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.subnavcontent div {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.subnavcontent a{
+    float: left;
+    color: #333;
+    padding: 15px 4px;
+    font-size: 16px;
+    position: relative;
+}
+
+.subnavcontent a:after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #333;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.subnavcontent a:last-child {
+    padding: 15px 0px 15px 4px;
+}
+
+.subnavcontent a:last-child:after {
+    display: none;
+}
+
+.subnavcontent a:hover {
+    font-weight: 500;
+    color: #000;
+}
+
+#navright div, a {
+    float: left;
+}
+#navright > a {
+    margin-left: 20px;
+}
+
+#navright div {
+    border-bottom: 1px solid #fff;
+    width: 150px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+#navright div a {
+    float: left;
+}
+
+#navright div form {
+    float: right;
+}
+
+#navright img {
+    width: 24px;
+    height: 24px;
+}
+
+#navright input[type=text] {
+    outline: none;
+    border: none;
+    width: 126px;
+    height: 24px;
+    color: #f9f9f9;
+    background: none;
+}

@@ -1,0 +1,451 @@
+/* 슬라이드 */
+.mySwiper1 img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper1 .swiper-slide a {
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper1 .swiper-slide {
+    background-color: #eee;
+}
+
+.mySwiper1 .text-wrap {
+    position: absolute;
+    width: 1200px;
+    top: 35%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: auto;
+    transition: 0.5s;
+    transition-delay: 0.7s;
+}
+
+.mySwiper1 .swiper-slide-active .text-wrap{
+    opacity: 1;
+    top: 25%;
+    transition: 0.5s;
+    transition-delay: 0.7s;
+}
+
+.mySwiper1 .text-wrap h2 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.mySwiper1 .text-wrap p {
+    color: #fff;
+    font-style: 20px;
+}
+
+.mySwiper1 {
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+  }
+
+.mySwiper1 .swiper-pagination-bullet {
+    width: 40px;
+    height: 3px;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.mySwiper1 .swiper-pagination-bullet-active {
+    background: #fff;
+    width: 80px;
+}
+
+.mySwiper1 .swiper-button-next.swiper-button-disabled,
+.mySwiper1 .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.mySwiper1 .swiper-button-next,
+.mySwiper1 .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.mySwiper1 .swiper-button-prev:after,
+.mySwiper1 .swiper-rtl .swiper-button-next:after,
+.mySwiper1 .swiper-button-next:after,
+.mySwiper1 .swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+
+.mySwiper1 .swiper-button-next:hover,
+.mySwiper1 .swiper-button-prev:hover {
+    background-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.mySwiper1 .swiper-button-prev {
+    background-image: url(images/angle-left-w.svg);
+    background-size: 100%;
+    left: 20px;
+}
+
+.mySwiper1 .swiper-button-prev:hover {
+    background-image: url(images/angle-left-w.svg);
+    background-size: 100%;
+}
+
+.mySwiper1 .swiper-button-next {
+    background-image: url(images/angle-right-w.svg);
+    background-size: 100%;
+    right: 20px;
+}
+
+.mySwiper1 .swiper-button-next:hover {
+    background-image: url(images/angle-right-w.svg);
+    background-size: 100%;
+}
+
+/* ----------------------------------------------랭킹 ---------------------------------------*/
+
+.mySwiper2 {
+    width: 1200px;
+    width: 100%;
+    height: 290px;
+  }
+
+.rank-img {
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+
+.rank-img img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.rank-img p {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 800;
+    left: 5px;
+    top: 5px;
+    color: black;
+}
+
+.rank-wrap {
+    width: 100%;
+    height: 70px;
+    color: #000;
+    padding-left: 5px;
+}
+
+.rank-wrap h3 {
+    font-weight: 600;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.rank-wrap p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.rank-wrap .rank-text {
+    overflow: hidden;
+    width: 100px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.rank-wrap .rank-price {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.rank-wrap .rank-price span {
+    font-weight: 400;
+    color: #666;
+    text-decoration-line: line-through;
+}
+
+.mySwiper2 .swiper-slide {
+    max-width: 180px;
+    height: 100%;
+}
+
+.mySwiper2 .swiper-button-next.swiper-button-disabled,
+.mySwiper2 .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.mySwiper2 .swiper-button-next,
+.mySwiper2 .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
+    top: 110px;
+    background-color: #333;
+}
+
+.mySwiper2 .swiper-button-prev:after,
+.mySwiper2 .swiper-rtl .swiper-button-next:after,
+.mySwiper2 .swiper-button-next:after,
+.mySwiper2 .swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+
+.mySwiper2 .swiper-button-prev {
+    background-image: url(images/angle-left-w.svg);
+    background-size: 100%;
+    left: 0;
+    opacity: 0.7;
+}
+
+.mySwiper2 .swiper-button-prev:hover {
+    background-image: url(images/angle-left-w.svg);
+    background-size: 100%;
+    opacity: 1;
+}
+
+.mySwiper2 .swiper-button-next {
+    background-image: url(images/angle-right-w.svg);
+    background-size: 100%;
+    right: 0;
+    opacity: 0.7;
+}
+
+.mySwiper2 .swiper-button-next:hover {
+    background-image: url(images/angle-right-w.svg);
+    background-size: 100%;
+    opacity: 1;
+}
+/* --------------------------------------------스타일-------------------------------------------------- */
+.style-img {
+    width: 1200px;
+    display: none;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.style-img a {
+    width: 282px;
+    height: 420px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.style-img img {
+    transition: 0.2s;
+    width: 100%;
+}
+
+
+.style-img img:hover {
+    transform: scale(1.1)
+}
+
+/* ------------------------------------------------스페셜----------------------------------------------- */
+.mySwiper3 {
+    max-width: 1200px;
+    width:100%;
+}
+
+.mySwiper3 .swiper-slide {
+    width: 384px;
+    height: 100%;
+}
+
+.mySwiper3 .spacial-img {
+    position: relative;
+    width: 384px;
+    height: 256px;
+}
+.mySwiper3 .spacial-img img {
+    width: 384px;
+    height: 256px;
+}
+
+.mySwiper3 .spacial-img p {
+    padding: 5px 17px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background: #2353FF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mySwiper3 .spacial-wrap {
+    padding-top: 20px;
+    width: 384px;
+}
+
+.mySwiper3 .spacial-wrap p {
+    font-size: 14px;
+    color: #333;
+}
+
+.mySwiper3 .spacial-wrap h3 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.mySwiper3 .spacial-wrap span {
+    font-size: 14px;
+    color: #999;
+    font-weight: 300
+}
+
+.mySwiper3 .swiper-button-next.swiper-button-disabled,
+.mySwiper3 .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.mySwiper3 .swiper-button-next,
+.mySwiper3 .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
+    top: 128px;
+    background-color: #333;
+}
+
+.mySwiper3 .swiper-button-prev:after,
+.mySwiper3 .swiper-rtl .swiper-button-next:after,
+.mySwiper3 .swiper-button-next:after,
+.mySwiper3 .swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+
+.mySwiper3 .swiper-button-prev {
+    background-image: url(images/angle-left-w.svg);
+    background-size: 100%;
+    left: 0;
+    opacity: 0.7;
+}
+
+.mySwiper3 .swiper-button-prev:hover {
+    background-image: url(images/angle-left-w.svg);
+    background-size: 100%;
+    opacity: 1;
+}
+
+.mySwiper3 .swiper-button-next {
+    background-image: url(images/angle-right-w.svg);
+    background-size: 100%;
+    right: 0;
+    opacity: 0.7;
+}
+
+.mySwiper3 .swiper-button-next:hover {
+    background-image: url(images/angle-right-w.svg);
+    background-size: 100%;
+    opacity: 1;
+}
+
+/* -------------------------------쇼핑 ----------------------------*/
+
+.shopping-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 392px;
+}
+
+.shopping-wrap {
+    width: 588px;
+    height: 392px;
+    position: relative;
+}
+
+.shopping-wrap img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.shopping-wrap div {
+    width: 100%;
+    height: 118px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: rgba(0, 0, 0 , 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.shopping-wrap h2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.shopping-wrap p {
+    font-size: 14px;
+    color: #ddd;   
+    padding-top: 10px; 
+}
+/* ------------------------브랜드------------------------- */
+
+.brand {
+    width: 100%;
+}
+
+.brand > .heading {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.brand .mySwiper4 {
+    background: #fcfcfc;
+}
+
+.brand .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    transition-timing-function: linear;
+}
+
+@media(max-width: 1280px) {
+    .brand {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무신사 스토어</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <script src="./JavaScripts/signup.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h1 class="content__header">무신사 회원가입</h1>
+            <input type="text" class="text__box" id="email" placeholder="이메일을 입력해 주세요">
+            <div class="error" id="error__email"></div>
+            <input type="text" class="text__box" id="name" placeholder="이름을 입력해 주세요">
+            <div class="error" id="error__name"></div>
+            <input type="password" class="text__box" id="pw1" placeholder="비밀번호를 입력해 주세요">
+            <div class="error" id="error__pw1"></div>
+            <input type="password" class="text__box" id="pw2" placeholder="비밀번호를 다시 입력해 주세요">
+            <div class="error" id="error__pw2"></div>
+            <div class="content__phone">
+                <input type="text" class="phone" id="phone1" oninput="phonechange1()" onkeypress="return checkNumber(event)" maxlength="3">
+                <div class="line"></div>
+                <input type="text" class="phone" id="phone2" oninput="phonechange2()" onkeypress="return checkNumber(event)" maxlength="4">
+                <div class="line"></div>
+                <input type="text" class="phone" id="phone3" oninput="phonechange3()" onkeypress="return checkNumber(event)" maxlength="4">
+            </div>
+            <div class="content__token">
+                <p id="token" class="font">000000</p>
+                <button class="tokenbtn" id="certification" onclick="tokenbtn()" disabled>인증번호 전송</button>
+            </div>
+
+            <div class="content__timer">
+                <p id="timer" class="font">3:00</p>
+                <button class="timerbtn" id="submit" onclick="timebtn()" disabled>인증 완료</button>
+            </div>
+            <div class="underline"></div>
+            <button class="content__signup" id="signup" onclick="signupbtn()" disabled>가입하기</button>
+    
+        </div>
+    </div>
+</body>
+</html>

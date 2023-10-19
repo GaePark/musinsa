@@ -1,0 +1,269 @@
+section {
+    padding-top: 110px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.commodity-wrapper {
+    width: 100%;
+    height: 1407px;
+}
+
+.commodity {
+    width: 50%;
+    height: 1407px;
+    float: left;
+    overflow: visible;
+}
+
+.commodity-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    overflow: hidden;
+}
+
+.commodity-wrap {
+    width: 50%;
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.commodityb {
+    width: 100%;
+}
+.commodity-s {
+    width: 100%;
+    background: #ccc;
+    overflow: hidden;
+}
+.commodity-s div {
+    width: 20%;
+    float: left;
+}
+
+.commodity-img {
+    opacity: 0.6;
+}
+
+.commodity-img:hover {
+    opacity: 1;
+}
+
+/* ------------------------내용-------------------- */
+.commodity-wrap {
+    padding: 20px 0 0 40px;
+}
+
+.commodity-wrap h1 {
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.product h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.product ul {
+    padding-bottom: 40px;
+}
+
+.product li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.product li:last-child {
+    margin-bottom: 0;
+}
+
+.product .sale {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.product .product-name {
+    width: 127px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.product .product-wrap {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.product .product-sale {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+
+}
+
+.product .heart {
+    color: #FF3333;
+    display: flex;
+}
+
+.product .heart img {
+    width: 20px;
+    height: 20px;
+}
+
+.product .heart span {
+    padding-left: 5px;
+}
+
+.product .product-box {
+    background: #d9d9d9;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .product-box  p{
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .product-box .product-boxs {
+    display: none;
+}
+
+.product .buy {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product .buy .buy-btn1 {
+    width: 400px;
+    height: 50px;
+    background: #000;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.product .buy .buy-btn2 {
+    width: 400px;
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.product .outher {
+    width: 400px;
+    height: 152px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product .outher img {
+    width: 60px;
+    height: 72px;
+    display: block;
+}
+
+.product .size {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.product .size a{
+    padding: 8px;
+    border: 1px solid #ccc;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.product table {
+    width: 400px;
+    height: 150px;
+    border-collapse : collapse;
+}
+
+.product td {
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.product .size-name {
+    background: #eee;
+}
+
+.sang {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.sang h2 {
+    padding: 10px 0;
+}
+
+.sang img {
+    width:960px;
+    margin: 0 auto;
+}
+
+.product-btn {
+    display: flex;
+    border: 1px solid #eee;
+    width: 70px;
+    height: 20px;
+    justify-content: space-between;
+    margin-right:auto;
+}
+
+.product-btn button {
+    border: none;
+    line-height: 20px;
+}
+
+.product-btn button:hover {
+    cursor: pointer;
+}
+
+.product-btn p {
+    font-size: 14px;
+}
+
+.price {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
