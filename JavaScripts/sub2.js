@@ -15,25 +15,25 @@ function myFunction(smallImg) {
     fullImg.src = smallImg.src;
   }
   
-  let quantity = 1
-  let cell = 71250
   
   let minus = () => {
+    let quantity = Number(document.getElementById("quantity").innerText)
+    let cell = 71250
+  
     if(quantity > 1) {
       quantity -= 1
       document.getElementById("quantity").innerText = quantity
       document.getElementById("cell").innerText = quantity * cell
-    } else {
-  
     }
   }
   
   let plus = () => {
+    let quantity = Number(document.getElementById("quantity").innerText)
+    let cell = 71250
+  
     if(quantity < 10) {
       quantity += 1
       document.getElementById("quantity").innerText = quantity
       document.getElementById("cell").innerText = quantity * cell
-    } else {
-      
-    }
+    } 
   }

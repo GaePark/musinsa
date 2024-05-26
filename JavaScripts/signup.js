@@ -41,12 +41,15 @@ let tokenbtn = () => {
     document.getElementById("submit").style = "border: none; background: #000; color: #fff; font-weight: 600; cursor: pointer"
     document.getElementById("certification").setAttribute("disabled", true)
     document.getElementById("certification").style = ""
+    document.getElementById("phone1").setAttribute("disabled", true)
+    document.getElementById("phone2").setAttribute("disabled", true)
+    document.getElementById("phone3").setAttribute("disabled", true)
     tokenCount()
 }
 
 let started
 let tokenCount = () => {
-    let time = 10
+    let time = 179
     started = setInterval(() => {
         
         if(time >= 0) {
@@ -59,6 +62,9 @@ let tokenCount = () => {
             document.getElementById("timer").innerText = "3:00"
             document.getElementById("submit").setAttribute("disabled", true)
             document.getElementById("submit").style = ""
+            document.getElementById("phone1").removeAttribute("disabled")
+            document.getElementById("phone2").removeAttribute("disabled")
+            document.getElementById("phone3").removeAttribute("disabled")        
             clearInterval(started)
         }
     }, 1000);
@@ -70,6 +76,9 @@ let timebtn = () => {
     document.getElementById("timer").innerText = "3:00"
     document.getElementById("submit").setAttribute("disabled", true)
     document.getElementById("submit").style = ""
+    document.getElementById("phone1").removeAttribute("disabled")
+    document.getElementById("phone2").removeAttribute("disabled")
+    document.getElementById("phone3").removeAttribute("disabled")        
     clearInterval(started)
 
     alert("인증이 완료되었습니다.")
